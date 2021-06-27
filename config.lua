@@ -30,6 +30,7 @@ Config.Webhooks = {
     ["weather"] = "",
     ["moneysafes"] = "",
     ["bennys"] = "",
+    ["bossmenu"] = "",
 }
 
 Config.Colors = {
