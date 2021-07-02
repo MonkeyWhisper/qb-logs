@@ -1,7 +1,3 @@
-QBCore = nil
-TriggerEvent('QBCore:GetObject', function(obj) QBCore = obj end)
-
-
 RegisterServerEvent('qb-log:server:CreateLog')
 AddEventHandler('qb-log:server:CreateLog', function(name, title, color, message, tagEveryone)
     local tag = tagEveryone ~= nil and tagEveryone or false

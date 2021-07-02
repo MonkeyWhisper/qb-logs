@@ -4,11 +4,13 @@ game 'gta5'
 description 'QB-Logs'
 version '1.0.0'
 
-ui_page "html/index.html"
+ui_page 'html/index.html'
+
+shared_script '@qb-core/import.lua'
 
 server_scripts {
     'server/server.lua',
-    'config.lua',
+    'config.lua'
 }
 
 client_scripts {
@@ -17,5 +19,5 @@ client_scripts {
 
 files {
     'html/index.html',
-    'html/script.js',
+    'html/script.js'
 }
