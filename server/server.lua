@@ -1,5 +1,4 @@
-RegisterServerEvent('qb-log:server:CreateLog')
-AddEventHandler('qb-log:server:CreateLog', function(name, title, color, message, tagEveryone)
+RegisterNetEvent('qb-log:server:CreateLog', function(name, title, color, message, tagEveryone)        
     local tag = tagEveryone or false
     local webHook = Config.Webhooks[name] or Config.Webhooks['default']
     local embedData = {
