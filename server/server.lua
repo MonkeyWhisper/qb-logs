@@ -1,3 +1,5 @@
+local QBCore = exports['qb-core']:GetCoreObject()
+
 RegisterNetEvent('qb-log:server:CreateLog', function(name, title, color, message, tagEveryone)        
     local tag = tagEveryone or false
     local webHook = Config.Webhooks[name] or Config.Webhooks['default']
