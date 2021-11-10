@@ -8,3 +8,5 @@ server_scripts {
     'server/server.lua',
     'config.lua'
 }
+
+lua54 'yes'
