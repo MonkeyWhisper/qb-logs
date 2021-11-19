@@ -37,6 +37,7 @@ Config.Webhooks = {
     ['traphouse'] = '',
     ['911'] = '',
     ['palert'] = '',
+    ['house'] = '',
 }
 
 Config.Colors = { -- https://www.spycolor.com/
